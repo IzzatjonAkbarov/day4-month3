@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+img,
+input,
+button {
+  cursor: pointer;
+}
+.container1 {
+  width: 95%;
+  margin: 0 auto;
+}
+@media (min-width: 1600px) {
+  .container1 {
+    width: 1400px;
+    margin: 0 auto;
+  }
+}
+.swp {
+  background-image: url(../src/assets/img/phone.png);
+  background-position: right 0;
+  background-repeat: no-repeat;
+}
+.swp2 {
+  background-image: url(../src/assets/img/pattern.png);
+  background-size: cover;
+}
+.swp2 div {
+  background-image: url(../src/assets/img/phone2.png);
+  background-position: right 0px;
+  background-repeat: no-repeat;
+}
+
+.swp3 {
+  background-image: url(../src/assets/img/pattern.png);
+  background-size: cover;
+}
+.swp3 div {
+  background-image: url(../src/assets/img/powerbank.png);
+  background-position: right -20px;
+  background-repeat: no-repeat;
+}
+.card3:hover .cardp3 {
+  color: #399a3a;
+  transition: all 0.5s;
+}
+.card4:hover .cardp4 {
+  color: #399a3a;
+  transition: all 0.5s;
+}
+.card2:hover .cardp2 {
+  color: #399a3a;
+  transition: all 0.5s;
+}
+.card1:hover .cardp1 {
+  color: #399a3a;
+  transition: all 0.5s;
+}
+.card1:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  transition: all 0.5s;
+}
+.card2:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  transition: all 0.5s;
+}
+.card3:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  transition: all 0.5s;
+}
+.card4:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  transition: all 0.5s;
+}
+.bgsection {
+  background-image: url(../src/assets/img/bg.png);
+  background-size: cover;
+  padding: 50px 0;
+}
+.gridlast {
+  display: grid;
+  background: #000;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  grid-template-rows: 361px;
+  grid-template-areas: "card1 card2 card3";
+}
+.gridlast1 {
+  display: grid;
+  background: #000;
+  grid-template-columns: 1.5fr 1fr 1.5fr;
+  grid-template-rows: 237px;
+  grid-template-areas: "card4 card5 card6";
+}
+.gridcard1 {
+  grid-area: card1;
+  background: white;
+}
+.gridcard2 {
+  grid-area: card2;
+  background: white;
+}
+.gridcard3 {
+  grid-area: card3;
+  background: white;
+}
+.gridcard4 {
+  grid-area: card4;
+  background: white;
+}
+.gridcard5 {
+  grid-area: card5;
+  background: white;
+}
+.gridcard6 {
+  grid-area: card6;
+  background: white;
+}
+@media (max-width: 500px) {
+  .gridlast {
+    display: grid;
+    background: #000;
+    grid-template-columns: 1fr;
+    grid-template-rows: 237px 237px 237px;
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3";
+  }
+  .gridlast1 {
+    display: grid;
+    background: #000;
+    grid-template-columns: 1fr;
+    grid-template-rows: 237px 237px 237px;
+    grid-template-areas:
+      "card4"
+      "card5"
+      "card6";
+  }
+}
+@media (max-width: 319px) {
+  .gridlast {
+    display: grid;
+    background: #000;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3";
+  }
+  .gridlast1 {
+    display: grid;
+    background: #000;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas:
+      "card4"
+      "card5"
+      "card6";
+  }
+}
+.header {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  left: -100%;
+  width: 100%;
+  overflow-y: scroll;
+  padding-left: 5%;
+  z-index: 999;
+  background: #fff;
+  transition: all 0.5s;
+}
+@media (max-width: 634px) {
+  #check:checked ~ .header {
+    left: 0;
+  }
+}

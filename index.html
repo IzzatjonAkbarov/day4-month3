@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3-oy 4-dars</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body>
+    <main class="header1 font-sans">
+      <header class="bg-[#f6f7fb]">
+        <nav class="container1">
+          <nav
+            class="flex items-center justify-between gap-5 py-3 text-[14px] font-normal text-[#181818] max-[527px]:hidden">
+            <ul class="flex items-center justify-between gap-10">
+              <li class="hover:text-[#399a3a] transition-all">
+                <a href="">О компании</a>
+              </li>
+              <li class="hover:text-[#399a3a] transition-all">
+                <a href="">Доставка и оплата</a>
+              </li>
+              <li class="hover:text-[#399a3a] transition-all">
+                <a href="">Гарантии</a>
+              </li>
+              <li
+                class="max-[628px]:hidden hover:text-[#399a3a] transition-all">
+                <a href="">Контакты</a>
+              </li>
+            </ul>
+            <nav class="flex items-center justify-between gap-14">
+              <a
+                class="font-medium max-[1000px]:hidden hover:text-[#399a3a] transition-all"
+                href=""
+                ><i class="fa-solid fa-phone"></i> +7 (965) 237-44-49
+              </a>
+              <select
+                class="border-none outline-none bg-transparent max-[978px]:hidden hover:text-[#399a3a] transition-all"
+                name=""
+                id="">
+                <option value="">Русский</option>
+                <option value="">Русский</option>
+                <option value="">Русский</option>
+                <option value="">Русский</option>
+                <option value="">Русский</option>
+              </select>
+              <a class="hover:text-[#399a3a] transition-all" href=""
+                >Личный кабинет</a
+              >
+            </nav>
+          </nav>
+        </nav>
+      </header>
+      <header>
+        <nav class="container1">
+          <nav class="flex items-center justify-between gap-5 py-4">
+            <label class="hidden max-[634px]:block" for="check">
+              <i class="fa-solid fa-bars text-[20px]"></i
+            ></label>
+            <a href="">
+              <img src="./src/assets/svg/logo.svg" alt="" />
+            </a>
+            <nav
+              class="border-2 border-[#399a3a] rounded-[6px] flex justify-between items-center w-[60%] max-[633px]:hidden">
+              <input
+                class="w-[100%] outline-none border-none h-[100%] pl-3"
+                placeholder="Введите поисковой запрос.."
+                type="text" />
+              <button
+                class="flex items-center gap-2 bg-[#399a3a] p-3 text-white">
+                <i class="fa-solid fa-magnifying-glass"></i> Найти
+              </button>
+            </nav>
+            <nav class="flex items-center gap-5">
+              <a
+                class="flex items-center text-center flex-col justify-center gap-1 max-[909px]:hidden">
+                <img src="./src/assets/img/like.png" alt="" />
+                <p>Избранное</p>
+              </a>
+              <a
+                href="/"
+                class="flex items-center text-center flex-col justify-center gap-1 max-[527px]:hidden">
+                <img src="./src/assets/img/cart.png" alt="" />
+                <p>Моя корзина</p>
+              </a>
+              <nav class="hidden max-[527px]:block">
+                <a
+                  href="/"
+                  class="flex items-center text-center flex-col justify-center gap-1">
+                  <i class="fa-regular fa-circle-user text-[20px]"></i>
+                  <p>кабинет</p>
+                </a>
+              </nav>
+            </nav>
+          </nav>
+        </nav>
+      </header>
+      <header class="border-b-2 border-b-[#e6dddd]">
+        <nav class="container1 overflow-scroll">
+          <nav
+            class="flex items-center justify-between py-[15px] max-[1000px]:w-[950px] gap-4">
+            <select
+              class="outline-none hover:text-[#399a3a] transition-all"
+              name=""
+              id="">
+              <option value="">Apple</option>
+              <option value="">Huawei</option>
+              <option value="">Xiaomi</option>
+              <option value="">Samsung</option>
+            </select>
+            <select
+              class="outline-none hover:text-[#399a3a] transition-all"
+              name=""
+              id="">
+              <option value="">Huawei</option>
+              <option value="">Apple</option>
+              <option value="">Xiaomi</option>
+              <option value="">Samsung</option></select
+            ><select
+              class="outline-none hover:text-[#399a3a] transition-all"
+              name=""
+              id="">
+              <option value="">Xiaomi</option>
+              <option value="">Apple</option>
+              <option value="">Huawei</option>
+              <option value="">Samsung</option>
+            </select>
+            <select
+              class="outline-none hover:text-[#399a3a] transition-all"
+              name=""
+              id="">
+              <option value="">Samsung</option>
+              <option value="">Apple</option>
+              <option value="">Huawei</option>
+              <option value="">Xiaomi</option>
+            </select>
+            <a class="hover:text-[#399a3a] transition-all" href=""
+              >Питание и кабели</a
+            >
+            <a class="hover:text-[#399a3a] transition-all" href="">Powerbank</a>
+            <a class="hover:text-[#399a3a] transition-all" href="">Powerbank</a>
+            <a class="hover:text-[#399a3a] transition-all" href="">Акции</a>
+            <a class="text-[#399a3a]" href="">Прайс-лист</a>
+          </nav>
+        </nav>
+      </header>
+    </main>
+    <section class="showcase py-[45px]">
+      <div class="container1">
+        <div
+          class="showcase flex justify-between gap-8 max-[768px]:flex-col max-[768px]:w-[100%] items-center">
+          <div class="swiper mySwiper1 w-[50%] max-[768px]:w-[100%]">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div
+                  class="bg-[#399a3a] text-[white] text-[30px] p-5 rounded swp">
+                  <h1>
+                    Защитное стекло <br />
+                    на iPhone 11 Pro <br />
+                    по лучшей цене!
+                  </h1>
+                  <button
+                    class="bg-white text-[#399a3a] text-[16px] active:scale-[0.9] py-4 px-6 rounded mb-[100px] max-[350px]:mb-[40px] mt-[20px]">
+                    Подробнее
+                  </button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="bg-[#399a3a] text-[white] text-[30px] p-5 rounded swp">
+                  <h1>
+                    Защитное стекло <br />
+                    на iPhone 11 Pro <br />
+                    по лучшей цене!
+                  </h1>
+                  <button
+                    class="bg-white text-[#399a3a] text-[16px] active:scale-[0.9] py-4 px-6 rounded mb-[100px] max-[350px]:mb-[40px] mt-[20px]">
+                    Подробнее
+                  </button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="bg-[#399a3a] text-[white] text-[30px] p-5 rounded swp">
+                  <h1>
+                    Защитное стекло <br />
+                    на iPhone 11 Pro <br />
+                    по лучшей цене!
+                  </h1>
+                  <button
+                    class="bg-white text-[#399a3a] text-[16px] active:scale-[0.9] py-4 px-6 rounded mb-[100px] max-[350px]:mb-[40px] mt-[20px]">
+                    Подробнее
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-[50%] flex flex-col gap-5 max-[768px]:w-[100%]">
+            <div class="swp2 text-[30px] text-[#181818] max-[768px]:w-[100%]">
+              <div class="p-5">
+                <h1>
+                  Silicone Case <br />
+                  для iPhone Xr
+                </h1>
+                <p class="text-[16px] text-[#399a3a] mt-[34px]">
+                  Подробнее <i class="fa-solid fa-arrow-right"></i>
+                </p>
+              </div>
+            </div>
+            <div class="swp3 text-[30px] text-[#181818] max-[768px]:w-[100%]">
+              <div class="p-5">
+                <h1>
+                  PowerBank от Xiaomi <br />
+                  на 10 800 мА•ч
+                </h1>
+                <p class="text-[16px] text-[#399a3a] mt-[34px]">
+                  Подробнее <i class="fa-solid fa-arrow-right"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="flex">
+      <div class="container1">
+        <div class="flex items-center justify-between flex-wrap mx-auto">
+          <div class="card1 mx-auto">
+            <div
+              class="w-[255px] flex items-center justify-center bg-[#f6f7fb] rounded py-4">
+              <img src="./src/assets/img/card1phone.png" alt="" />
+            </div>
+            <p
+              class="py-4 text-center text-[#181818] text-[22px] font-semibold cardp1 w-auto">
+              Apple <i class="fa-solid fa-arrow-right"></i>
+            </p>
+          </div>
+          <div class="card2 mx-auto">
+            <div
+              class="w-[255px] flex items-center justify-center bg-[#f6f7fb] rounded py-4">
+              <img src="./src/assets/img/cardphone2.png" alt="" />
+            </div>
+            <p
+              class="py-4 text-center text-[#181818] text-[22px] font-semibold cardp2 w-auto">
+              Huawei <i class="fa-solid fa-arrow-right"></i>
+            </p>
+          </div>
+          <div class="card3 mx-auto">
+            <div
+              class="w-[255px] flex items-center justify-center bg-[#f6f7fb] rounded py-4">
+              <img src="./src/assets/img/cardphone3.png" alt="" />
+            </div>
+            <p
+              class="py-4 text-center text-[#181818] text-[22px] font-semibold cardp3 w-auto">
+              Xiaomi <i class="fa-solid fa-arrow-right"></i>
+            </p>
+          </div>
+          <div class="card4 mx-auto">
+            <div
+              class="w-[255px] flex items-center justify-center bg-[#f6f7fb] rounded py-4">
+              <img src="./src/assets/img/card1phone.png" alt="" />
+            </div>
+            <p
+              class="py-4 text-center text-[#181818] text-[22px] font-semibold cardp4 w-auto">
+              Samsung <i class="fa-solid fa-arrow-right"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bgsection mt-10">
+      <div class="container1">
+        <div class="pb-5">
+          <h1
+            class="text-[40px] font-bold max-[529px]:text-[20px] max-[319px]:text-[16px]">
+            Популярные товары
+          </h1>
+          <div></div>
+        </div>
+
+        <div class="relative">
+          <div class="swiper mySwiper py-5">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div
+                  class="p-1 bg-white rounded hover:shadow-[0px_0px_20px_#f0f0f0] transition all mx-auto">
+                  <div class="flex justify-center items-center relative">
+                    <img src="./src/assets/img/maincard1.png" alt="" />
+                    <div
+                      class="rounded-[30px] bg-[#06f] px-2 py-1 absolute top-[11px] left-[11px]">
+                      <p class="text-white etx-[12px]">Новинка</p>
+                    </div>
+                    <div
+                      class="rounded-[30px] bg-[#399a3a] px-2 py-1 absolute top-[11px] left-[111px]">
+                      <p class="text-white etx-[12px]">Скидка</p>
+                    </div>
+                    <button
+                      class="hover:text-[#f00] active:scale-[0.9] absolute top-[11px] right-[11px]">
+                      <i class="fa-regular fa-heart text-[20px]"></i>
+                    </button>
+                    <div
+                      class="rounded-[30px] bg-[#ed0000] px-2 py-1 absolute top-[50px] left-[11px]">
+                      <p class="text-white etx-[12px]">Популярное</p>
+                    </div>
+                  </div>
+                  <div class="p-4 flex flex-col gap-3">
+                    <h1 class="font-semibold text-[18px] text-[#181818]">
+                      iPhone 7 Plus Шлейф кнопки включения + Шлейф громкости
+                      Оригинал
+                    </h1>
+                    <div class="flex justify-between">
+                      <p class="text-[#686868] text-[14px] font-normal">
+                        Розница:
+                      </p>
+                      <p class="text-[#181818] text-[14px] font-normal">
+                        950 ₽
+                      </p>
+                    </div>
+                    <div class="flex justify-between">
+                      <p class="text-[#686868] text-[14px] font-normal">
+                        Оптом (от 5 штук):
+                      </p>
+                      <p class="text-[#181818] text-[14px] font-normal">
+                        950 ₽
+                      </p>
+                    </div>
+                    <div class="flex justify-between">
+                      <p class="text-[#686868] text-[14px] font-normal">
+                        В наличии:
+                      </p>
+                      <p class="text-[#181818] text-[14px] font-normal">
+                        950 ₽
+                      </p>
+                    </div>
+                    <div class="flex justify-between gap-3">
+                      <div
+                        class="flex items-center gap-2 border rounded p-2 hover:shadow-[0px_0px_20px_#F6F6F6]">
+                        <button class="active:scale-[0.9] hover:text-[#399a3a]">
+                          <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <p>96</p>
+                        <button class="active:scale-[0.9] hover:text-[#399a3a]">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                      <button
+                        class="border rounded w-[100%] border-[#399a3a] text-[#399a3a] hover:text-white hover:bg-[#399a3a] py-4 px-4 transition-all hover:shadow-[0px_0px_20px_#DAEBDA] active:scale-[0.9]">
+                        В корзину
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="p-1 bg-white rounded hover:shadow-[0px_0px_20px_#f0f0f0] transition all mx-auto">
+                  <div class="flex justify-center items-center relative">
+                    <img src="./src/assets/img/maincard1.png" alt="" />
+                    <div
+                      class="rounded-[30px] bg-[#ed0000] px-2 py-1 absolute top-[11px] left-[11px]">
+                      <p class="text-white etx-[12px]">Популярное</p>
+                    </div>
+
+                    <button
+                      class="hover:text-[#f00] active:scale-[0.9] absolute top-[11px] right-[11px]">
+                      <i class="fa-regular fa-heart text-[20px]"></i>
+                    </button>
+                  </div>
+                  <div class="p-4 flex flex-col gap-3">
+                    <h1 class="font-semibold text-[18px] text-[#181818]">
+                      iPhone 7 Plus Шлейф кнопки включения + Шлейф громкости
+                      Оригинал
+                    </h1>
+                    <div class="flex justify-between">
+                      <p class="text-[#686868] text-[14px] font-normal">
+                        Розница:
+                      </p>
+                      <p class="text-[#181818] text-[14px] font-normal">
+                        950 ₽
+                      </p>
+                    </div>
+                    <div class="flex justify-between">
+                      <p class="text-[#686868] text-[14px] font-normal">
+                        Оптом (от 5 штук):
+                      </p>
+                      <p class="text-[#181818] text-[14px] font-normal">
+                        950 ₽
+                      </p>
+                    </div>
+                    <div class="flex justify-between">
+                      <p class="text-[#686868] text-[14px] font-normal">
+                        В наличии:
+                      </p>
+                      <p class="text-[#181818] text-[14px] font-normal">
+                        950 ₽
+                      </p>
+                    </div>
+                    <div class="flex justify-between gap-3">
+                      <div
+                        class="flex items-center gap-2 border rounded p-2 hover:shadow-[0px_0px_20px_#F6F6F6]">
+                        <button class="active:scale-[0.9] hover:text-[#399a3a]">
+                          <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <p>96</p>
+                        <button class="active:scale-[0.9] hover:text-[#399a3a]">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                      <button
+                        class="border rounded w-[100%] border-[#399a3a] text-[#399a3a] hover:text-white hover:bg-[#399a3a] py-4 px-4 transition-all hover:shadow-[0px_0px_20px_#DAEBDA] active:scale-[0.9]">
+                        В корзину
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="p-1 bg-white rounded hover:shadow-[0px_0px_20px_#f0f0f0] transition all mx-auto">
+                  <div class="flex justify-center items-center relative">
+                    <img src="./src/assets/img/maincard1.png" alt="" />
+                    <div
+                      class="rounded-[30px] bg-[#399a3a] px-2 py-1 absolute top-[11px] left-[11px]">
+                      <p class="text-white etx-[12px]">Скидка</p>
+                    </div>
+
+                    <button
+                      class="hover:text-[#f00] active:scale-[0.9] absolute top-[11px] right-[11px]">
+                      <i class="fa-regular fa-heart text-[20px]"></i>
+                    </button>
+                  </div>
+                  <div class="p-4 flex flex-col gap-3">
+                    <h1 class="font-semibold text-[18px] text-[#181818]">
+                      iPhone 7 Plus Шлейф кнопки включения + Шлейф громкости
+                      Оригинал
+                    </h1>
+                    <div class="flex justify-between">
+                      <p class="text-[#686868] text-[14px] font-normal">
+                        Розница:
+                      </p>
+                      <p class="text-[#181818] text-[14px] font-normal">
+                        950 ₽
+                      </p>
+                    </div>
+                    <div class="flex justify-between">
+                      <p class="text-[#686868] text-[14px] font-normal">
+                        Оптом (от 5 штук):
+                      </p>
+                      <p class="text-[#181818] text-[14px] font-normal">
+                        950 ₽
+                      </p>
+                    </div>
+                    <div class="flex justify-between">
+                      <p class="text-[#686868] text-[14px] font-normal">
+                        В наличии:
+                      </p>
+                      <p class="text-[#181818] text-[14px] font-normal">
+                        950 ₽
+                      </p>
+                    </div>
+                    <div class="flex justify-between gap-3">
+                      <div
+                        class="flex items-center gap-2 border rounded p-2 hover:shadow-[0px_0px_20px_#F6F6F6]">
+                        <button class="active:scale-[0.9] hover:text-[#399a3a]">
+                          <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <p>96</p>
+                        <button class="active:scale-[0.9] hover:text-[#399a3a]">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                      <button
+                        class="border rounded w-[100%] border-[#399a3a] text-[#399a3a] hover:text-white hover:bg-[#399a3a] py-4 px-4 transition-all hover:shadow-[0px_0px_20px_#DAEBDA] active:scale-[0.9]">
+                        В корзину
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="p-1 bg-white rounded hover:shadow-[0px_0px_20px_#f0f0f0] transition all mx-auto">
+                  <div class="flex justify-center items-center relative">
+                    <img src="./src/assets/img/maincard1.png" alt="" />
+                    <div
+                      class="rounded-[30px] bg-[#06f] px-2 py-1 absolute top-[11px] left-[11px]">
+                      <p class="text-white etx-[12px]">Новинка</p>
+                    </div>
+
+                    <button
+                      class="hover:text-[#f00] active:scale-[0.9] absolute top-[11px] right-[11px]">
+                      <i class="fa-regular fa-heart text-[20px]"></i>
+                    </button>
+                  </div>
+                  <div class="p-4 flex flex-col gap-3">
+                    <h1 class="font-semibold text-[18px] text-[#181818]">
+                      iPhone 7 Plus Шлейф кнопки включения + Шлейф громкости
+                      Оригинал
+                    </h1>
+                    <div class="flex justify-between">
+                      <p class="text-[#686868] text-[14px] font-normal">
+                        Розница:
+                      </p>
+                      <p class="text-[#181818] text-[14px] font-normal">
+                        950 ₽
+                      </p>
+                    </div>
+                    <div class="flex justify-between">
+                      <p class="text-[#686868] text-[14px] font-normal">
+                        Оптом (от 5 штук):
+                      </p>
+                      <p class="text-[#181818] text-[14px] font-normal">
+                        950 ₽
+                      </p>
+                    </div>
+                    <div class="flex justify-between">
+                      <p class="text-[#686868] text-[14px] font-normal">
+                        В наличии:
+                      </p>
+                      <p class="text-[#181818] text-[14px] font-normal">
+                        950 ₽
+                      </p>
+                    </div>
+                    <div class="flex justify-between gap-3">
+                      <div
+                        class="flex items-center gap-2 border rounded p-2 hover:shadow-[0px_0px_20px_#F6F6F6]">
+                        <button class="active:scale-[0.9] hover:text-[#399a3a]">
+                          <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <p>96</p>
+                        <button class="active:scale-[0.9] hover:text-[#399a3a]">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                      <button
+                        class="border rounded w-[100%] border-[#399a3a] text-[#399a3a] hover:text-white hover:bg-[#399a3a] py-4 px-4 transition-all hover:shadow-[0px_0px_20px_#DAEBDA] active:scale-[0.9]">
+                        В корзину
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="p-1 bg-white rounded hover:shadow-[0px_0px_20px_#f0f0f0] transition all mx-auto">
+                  <div class="flex justify-center items-center relative">
+                    <img src="./src/assets/img/maincard1.png" alt="" />
+                    <div
+                      class="rounded-[30px] bg-[#06f] px-2 py-1 absolute top-[11px] left-[11px]">
+                      <p class="text-white etx-[12px]">Новинка</p>
+                    </div>
+                    <div
+                      class="rounded-[30px] bg-[#399a3a] px-2 py-1 absolute top-[11px] left-[111px]">
+                      <p class="text-white etx-[12px]">Скидка</p>
+                    </div>
+                    <button
+                      class="hover:text-[#f00] active:scale-[0.9] absolute top-[11px] right-[11px]">
+                      <i class="fa-regular fa-heart text-[20px]"></i>
+                    </button>
+                    <div
+                      class="rounded-[30px] bg-[#ed0000] px-2 py-1 absolute top-[50px] left-[11px]">
+                      <p class="text-white etx-[12px]">Популярное</p>
+                    </div>
+                  </div>
+                  <div class="p-4 flex flex-col gap-3">
+                    <h1 class="font-semibold text-[18px] text-[#181818]">
+                      iPhone 7 Plus Шлейф кнопки включения + Шлейф громкости
+                      Оригинал
+                    </h1>
+                    <div class="flex justify-between">
+                      <p class="text-[#686868] text-[14px] font-normal">
+                        Розница:
+                      </p>
+                      <p class="text-[#181818] text-[14px] font-normal">
+                        950 ₽
+                      </p>
+                    </div>
+                    <div class="flex justify-between">
+                      <p class="text-[#686868] text-[14px] font-normal">
+                        Оптом (от 5 штук):
+                      </p>
+                      <p class="text-[#181818] text-[14px] font-normal">
+                        950 ₽
+                      </p>
+                    </div>
+                    <div class="flex justify-between">
+                      <p class="text-[#686868] text-[14px] font-normal">
+                        В наличии:
+                      </p>
+                      <p class="text-[#181818] text-[14px] font-normal">
+                        950 ₽
+                      </p>
+                    </div>
+                    <div class="flex justify-between gap-3">
+                      <div
+                        class="flex items-center gap-2 border rounded p-2 hover:shadow-[0px_0px_20px_#F6F6F6]">
+                        <button class="active:scale-[0.9] hover:text-[#399a3a]">
+                          <i class="fa-solid fa-minus"></i>
+                        </button>
+                        <p>96</p>
+                        <button class="active:scale-[0.9] hover:text-[#399a3a]">
+                          <i class="fa-solid fa-plus"></i>
+                        </button>
+                      </div>
+                      <button
+                        class="border rounded w-[100%] border-[#399a3a] text-[#399a3a] hover:text-white hover:bg-[#399a3a] py-4 px-4 transition-all hover:shadow-[0px_0px_20px_#DAEBDA] active:scale-[0.9]">
+                        В корзину
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute top-[-13%] max-[529px]:-top-[10%] right-0 flex items-center gap-5 justify-end">
+            <div
+              class="prev w-[40px] h-[40px] flex items-center justify-center rounded-[100%] bg-white">
+              <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div
+              class="next w-[40px] h-[40px] flex items-center justify-center rounded-[100%] bg-white">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="my-10">
+      <div class="container1 max-[433px]:flex justify-center">
+        <div class="flex items-center justify-between flex-wrap gap-3">
+          <div
+            class="py-[38px] w-[200px] flex justify-center items-center flex-col bg-[#fafafa] rounded text-center gap-3 mx-auto hover:shadow-[0px_0px_20px_#f0f0f0]">
+            <img src="./src/assets/svg/lastcard1.svg" alt="" />
+            <p class="font-medium text-[#181818]">
+              Достойные <br />
+              оптовые цены
+            </p>
+          </div>
+          <div
+            class="py-[38px] w-[200px] flex justify-center items-center flex-col bg-[#fafafa] rounded text-center gap-3 mx-auto hover:shadow-[0px_0px_20px_#f0f0f0]">
+            <img src="./src/assets/svg/lastcard2.svg" alt="" />
+            <p class="font-medium text-[#181818]">
+              Даём гарантию <br />
+              от 1 года
+            </p>
+          </div>
+          <div
+            class="py-[38px] w-[200px] flex justify-center items-center flex-col bg-[#fafafa] rounded text-center gap-3 mx-auto hover:shadow-[0px_0px_20px_#f0f0f0]">
+            <img src="./src/assets/svg/lastcard3.svg" alt="" />
+            <p class="font-medium text-[#181818]">
+              Работаем напрямую <br />
+              с производителями
+            </p>
+          </div>
+          <div
+            class="py-[38px] w-[200px] flex justify-center items-center flex-col bg-[#fafafa] rounded text-center gap-3 mx-auto hover:shadow-[0px_0px_20px_#f0f0f0]">
+            <img src="./src/assets/svg/lastcard4.svg" alt="" />
+            <p class="font-medium text-[#181818]">
+              Контроль качества <br />
+              продукции
+            </p>
+          </div>
+          <div
+            class="py-[38px] w-[200px] flex justify-center items-center flex-col bg-[#fafafa] rounded text-center gap-3 mx-auto hover:shadow-[0px_0px_20px_#f0f0f0]">
+            <img src="./src/assets/svg/lastcard5.svg" alt="" />
+            <p class="font-medium text-[#181818]">
+              Процент брака<br />
+              сведён к минимуму
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bgsection">
+      <div class="container1">
+        <h1
+          class="font-medium text-[22px] text-[#181818] max-[517px]:text-[18px]">
+          No Doors Technology - продажа аксессуаров и запчастей для мобильных
+          телефонов оптом
+        </h1>
+        <br />
+        <p
+          class="font-normal text-[#686868] max-[517px]:text-[14px] max-[427px]:text-[12px]">
+          Товарищи! постоянное информационно-пропагандистское обеспечение нашей
+          деятельности представляет собой интересный эксперимент проверки
+          существенных финансовых и административных условий. С другой стороны
+          укрепление и развитие структуры требуют от нас анализа новых
+          предложений. Таким образом рамки и место обучения кадров позволяет
+          оценить значение системы обучения кадров, соответствует насущным
+          потребностям.
+        </p>
+        <br />
+        <p
+          class="font-normal text-[#686868] max-[517px]:text-[14px] max-[427px]:hidden">
+          Товарищи! дальнейшее развитие различных форм деятельности играет
+          важную роль в формировании системы обучения кадров, соответствует
+          насущным потребностям. Задача организации, в особенности же постоянный
+          количественный рост и сфера нашей активности влечет за собой процесс
+          внедрения и модернизации позиций, занимаемых участниками в отношении
+          поставленных задач. Задача организации, в особенности же начало
+          повседневной работы по формированию позиции в значительной степени
+          обуславливает создание дальнейших направлений.
+        </p>
+        <a
+          href=""
+          class="hidden max-[427px]:block font-normal text-[#686868] underline"
+          >More
+        </a>
+      </div>
+    </section>
+    <section class="py-[100px]">
+      <div class="container1">
+        <div class="gridlast">
+          <div class="gridcard1">
+            <img
+              class="w-[100%] h-[100%]"
+              src="./src/assets/img/grid1.png"
+              alt="" />
+          </div>
+          <div class="gridcard2">
+            <img
+              class="w-[100%] h-[100%]"
+              src="./src/assets/img/grid2.png"
+              alt="" />
+          </div>
+          <div class="gridcard3">
+            <img
+              class="w-[100%] h-[100%]"
+              src="./src/assets/img/grid3.png"
+              alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="container1">
+        <div class="gridlast1">
+          <div class="gridcard4">
+            <img
+              class="w-[100%] h-[100%]"
+              src="./src/assets/img/grid4.png"
+              alt="" />
+          </div>
+          <div class="gridcard5">
+            <img
+              class="w-[100%] h-[100%]"
+              src="./src/assets/img/grid5.png"
+              alt="" />
+          </div>
+          <div class="gridcard6">
+            <img
+              class="w-[100%] h-[100%]"
+              src="./src/assets/img/grid6.png"
+              alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-[#1e1e1e] py-[30px] text-white">
+      <div class="container1 max-[467px]:flex justify-between max-[467px]:pl-3">
+        <div
+          class="flex justify-between gap-5 gap-y-5 max-[960px]:grid grid-cols-3 max-[708px]:grid-cols-2 max-[467px]:grid-cols-1">
+          <div>
+            <a href=""><img src="./src/assets/svg/logo2.svg" alt="" /></a>
+          </div>
+          <div class="flex items-start gap-3 flex-col">
+            <h1 class="font-bold text-[20px]">Навигация</h1>
+            <div class="flex items-start gap-1 flex-col">
+              <a
+                class="text-[14px] font-normal hover:underline transition-[400]"
+                href=""
+                >О компании
+              </a>
+              <a
+                class="text-[14px] font-normal hover:underline transition-[400]"
+                href=""
+                >Доставка и оплата
+              </a>
+              <a
+                class="text-[14px] font-normal hover:underline transition-[400]"
+                href=""
+                >Гарантии
+              </a>
+              <a
+                class="text-[14px] font-normal hover:underline transition-[400]"
+                href=""
+                >Контакты</a
+              >
+            </div>
+          </div>
+          <div class="flex items-start gap-3 flex-col">
+            <h1 class="font-bold text-[20px]">Контакты</h1>
+            <div class="flex items-start gap-1 flex-col">
+              <a
+                class="text-[14px] font-normal hover:underline transition-[400] flex items-center gap-2"
+                href=""
+                ><img src="./src/assets/svg/tel.svg" alt="" />+7 (965) 237-44-49
+              </a>
+              <a
+                class="text-[14px] font-normal hover:underline transition-[400] flex items-center gap-2"
+                href=""
+                ><img src="./src/assets/svg/vk.svg" alt="" />vk.com/*long_link*
+              </a>
+              <a
+                class="text-[14px] font-normal hover:underline transition-[400] flex items-center gap-2"
+                href=""
+                ><img src="./src/assets/svg/inst.svg" alt="" />@*long_nickname*
+              </a>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 flex-col">
+            <h1 class="font-bold text-[20px]">Способы оплаты</h1>
+            <div class="flex items-center gap-3 flex-row">
+              <a href=""><img src="./src/assets/img/visa.png" alt="" /></a>
+              <a href=""
+                ><img src="./src/assets/img/mastercard.png" alt=""
+              /></a>
+            </div>
+            <div class="flex items-center gap-3 flex-row">
+              <a href=""><img src="./src/assets/img/maestro.png" alt="" /></a>
+              <a href=""><img src="./src/assets/img/mir.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="flex items-end gap-3 flex-col max-[960px]:items-start">
+            <h1 class="font-bold text-[20px]">РАЗРАБОТКА САЙТА</h1>
+            <div class="flex items-end gap-1 flex-col max-[960px]:items-start">
+              <a
+                class="text-[14px] font-normal hover:underline transition-[400]"
+                href=""
+                ><img src="./src/assets/svg/logo3.svg" alt="" />
+              </a>
+
+              <a
+                class="text-[14px] font-normal hover:underline transition-[400]"
+                href="">
+                Политика конфиденциальности
+              </a>
+              <p
+                class="text-[14px] font-normal hover:underline transition-[400] text-[#686868]"
+                href="">
+                No Doors Technology © 2020
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <input class="hidden" id="check" type="checkbox" />
+    <div class="header max-[634px]:block">
+      <label
+        class="hidden max-[634px]:block absolute top-[5%] right-[5%]"
+        for="check">
+        <i class="fa-solid fa-xmark text-[20px]"></i
+      ></label>
+      <nav
+        class="flex items-start flex-col gap-5 py-3 text-[14px] font-normal text-[#181818]">
+        <nav class="flex items-center justify-between">
+          <a href="">
+            <img src="./src/assets/svg/logo.svg" alt="" />
+          </a>
+        </nav>
+        <ul class="flex items-start flex-col justify-between gap-5">
+          <li>
+            <a class="hover:text-[#399a3a] transition-all" href=""
+              >О компании</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-[#399a3a] transition-all" href=""
+              >Доставка и оплата</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-[#399a3a] transition-all" href="">Гарантии</a>
+          </li>
+          <li>
+            <a class="hover:text-[#399a3a] transition-all" href="">Контакты</a>
+          </li>
+        </ul>
+        <nav
+          class="flex items-start justify-between gap-5 flex-col hover:text-[#399a3a] transition-all">
+          <a class="font-medium" href=""
+            ><i class="fa-solid fa-phone"></i> +7 (965) 237-44-49
+          </a>
+          <select
+            class="border-none outline-none bg-transparent hover:text-[#399a3a] transition-all"
+            name=""
+            id="">
+            <option value="">Русский</option>
+            <option value="">Русский</option>
+            <option value="">Русский</option>
+            <option value="">Русский</option>
+            <option value="">Русский</option>
+          </select>
+          <a href="">Личный кабинет</a>
+        </nav>
+      </nav>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        navigation: {
+          nextEl: ".next",
+          prevEl: ".prev",
+        },
+        loop: true,
+        autoplay: {
+          delay: 1500,
+          disableOnInteraction: false,
+        },
+        breakpoints: {
+          280: {
+            slidesPerView: 1,
+          },
+          551: {
+            slidesPerView: 2,
+          },
+          940: {
+            slidesPerView: 3,
+          },
+          1265: {
+            slidesPerView: 4,
+          },
+        },
+      });
+      var swiper = new Swiper(".mySwiper1", {});
+    </script>
+  </body>
+</html>
